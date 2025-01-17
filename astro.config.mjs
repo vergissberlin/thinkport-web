@@ -5,8 +5,7 @@ import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://vergissberlin.github.io',
-    base: 'thinkport-website/',
+    site: 'https://thinkport.kubernaut.de',
     integrations: [mdx(), sitemap()],
     redirects: {
         '/winter': {
