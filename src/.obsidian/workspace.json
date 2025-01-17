@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/2025-01-17-Das ist einer wunderbar Blogartikel.md",
+                "file": "content/blog/Das ist einer wunderbar Blogartikel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-17-Das ist einer wunderbar Blogartikel"
+              "title": "Das ist einer wunderbar Blogartikel"
             }
           }
         ]
@@ -166,11 +166,11 @@
   },
   "active": "85128375de23f81e",
   "lastOpenFiles": [
-    "content/blog/2025-01-17-WinterAction.md",
+    "content/blog/WinterAction.md",
+    "content/blog/Das ist einer wunderbar Blogartikel.md",
     "content/blog/markdown-style-guide.md",
     "content/blog/first-post.md",
     "templates/blog.md",
-    "content/blog/2025-01-17-Das ist einer wunderbar Blogartikel.md",
     "{{date}-Mein Blog.md",
     "templates/page.md",
     "templates/white-paper.md",
