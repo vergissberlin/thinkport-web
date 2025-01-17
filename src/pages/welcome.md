@@ -13,6 +13,9 @@ Mit Amazon Webservices (AWS), einer der größten Cloud Computing Plattformen, k
 
 [Linkedin](https://www.linkedin.com/company/11759873) [Instagram](https://www.instagram.com/thinkport/) [Youtube](https://www.youtube.com/channel/UCnke3WYRT6bxuMK2t4jw2qQ) [Envelope](mailto:tdrechsel@thinkport.digital)
 
+> [Azure training](azure.md)
+> [AWS training](aws.md)
+
 ### CI/CD mit AWS
 
 Mit AWS robuste und hochverfügbare Pipelines entwickeln.

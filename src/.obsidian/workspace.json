@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/consulting/azure.md",
+                "file": "pages/welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "azure"
+              "title": "welcome"
             }
           }
         ],
@@ -181,8 +181,8 @@
   },
   "active": "dd7c6bcf01f62b0d",
   "lastOpenFiles": [
-    "pages/welcome.md",
     "pages/consulting/azure.md",
+    "pages/welcome.md",
     "pages/consulting/aws.md",
     "pages/winter.md",
     "domain.md",
