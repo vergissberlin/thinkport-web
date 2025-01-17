@@ -4,7 +4,7 @@
       "id": "ad86b061-7138-4a7d-9c47-b7df73ad85f0",
       "name": "White Paper",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "templates/white-paper.md",
       "fileNameFormat": {
         "enabled": false,
@@ -29,39 +29,62 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "5c3e9a6c-fa57-43bb-99e4-3e9cdea4abc8",
-      "name": "Capture",
-      "type": "Capture",
-      "command": false,
+      "id": "e8d1ac7f-9422-4f55-955d-cba570cf57f8",
+      "name": "Blog article",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/blog.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}-{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "content/blog"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
       "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": false,
-        "format": ""
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
-      "openFileInMode": "default"
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "3a5dd4cc-b51d-4141-a28f-7b2f0ec63dbc",
+      "name": "Page",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/page.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],
