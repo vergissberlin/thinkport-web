@@ -1,0 +1,11 @@
+{
+  "userIgnoreFilters": [
+    "components/",
+    "layouts/",
+    "styles/"
+  ],
+  "attachmentFolderPath": "/",
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
+}

@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap'
 // https://astro.build/config
 export default defineConfig({
     site: 'https://vergissberlin.github.io',
-    base: 'thinkport-web',
+    // base to root if it is in dev mode and to thinkport-web if it is in prod mode
+    base: process.env.NODE_ENV === 'development' ? '/' : '/thinkport-web/',
     integrations: [mdx(), sitemap()],
 })
