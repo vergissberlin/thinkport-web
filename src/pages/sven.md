@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/Page.astro
-title: {{name}}
-description: {{FIELD:description}}
+title: sven
+description: Sven is the king
 heroImage: /blog-placeholder-3.jpg
 tags: 
 aliases:
 ---
-## {{name}}
+## sven
 

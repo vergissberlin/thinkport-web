@@ -35,8 +35,8 @@
       "command": true,
       "templatePath": "templates/blog.md",
       "fileNameFormat": {
-        "enabled": true,
-        "format": "{{date}}-{{name}}"
+        "enabled": false,
+        "format": ""
       },
       "folder": {
         "enabled": true,
@@ -69,8 +69,10 @@
         "format": ""
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "pages"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
