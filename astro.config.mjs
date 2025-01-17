@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap'
 // https://astro.build/config
 export default defineConfig({
     site: 'https://vergissberlin.github.io',
-    base: process.env.CI ? '/thinkport-website' : '/',
+    base: process.env.CI ? 'thinkport-website' : '/',
     trailingSlash: "never",
     integrations: [mdx(), sitemap()],
     redirects: {
