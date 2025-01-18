@@ -179,8 +179,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ba14cac2899e213a",
+  "active": "8ea72e3a3fc19a3f",
   "lastOpenFiles": [
+    "pages/blog/index.astro",
+    "pages/blog/[...slug].astro",
+    "pages/blog/[..slug].astro",
     "pages/sven.md",
     "pages/jobs.md",
     "content/blog/2025-01-17-Another blog article.md",
@@ -206,7 +209,6 @@
     "content/blog/second-post.md",
     "Winter is coming.md",
     "content/blog/third-post.md",
-    "pages/Sommerfest.md",
     "content/blog/using-mdx.mdx",
     "consts.ts",
     "content.config.ts",
@@ -214,8 +216,6 @@
     "pages/about.astro",
     "pages/index.astro",
     "templates",
-    "layouts/Page.astro",
-    "layouts/BlogPost copy.astro",
-    "styles/global.css"
+    "layouts/Page.astro"
   ]
 }
